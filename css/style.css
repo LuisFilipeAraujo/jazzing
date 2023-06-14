@@ -85,13 +85,16 @@ h1{
     width: 600px;
 }
 .tamanhoIntro{
-    padding: 10px;
-    font-size: 22px;
+    padding: 30px;
+    font-size: 34px;
+    text-align: justify;
+}
+#swanson{
+    border-radius: 70px;
 }
 .container{
     display: flex;
     justify-content: center;
-    /* background-color: #C39829; */
     margin-bottom: 20px;
 }
 
