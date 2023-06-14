@@ -55,7 +55,9 @@ header {
     display: flex;
     width: 100%;
 }
-
+body{
+    background-color: #FFF5D1;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -66,10 +68,11 @@ header {
 h1{
     font-family: minhafonte;
     font-size: 42px;
-    color: black;
+    color: rgba(249, 249, 249, 0.922);
     text-align: center;
     background-color:#987825;
     width: 300px;
+    margin: auto;
     
 }
 
@@ -80,6 +83,49 @@ h1{
 }
 .vid video{
     width: 600px;
+}
+.tamanhoIntro{
+    padding: 10px;
+    font-size: 22px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: #C39829; */
+    margin-bottom: 20px;
+}
+
+.containerArtistas{
+    display: grid;
+    justify-content: center;
+    /* background-color: #C39829; */
+    margin-bottom: 20px;
+}
+
+.containerArtistas img{
+    width: 400px; 
+}
+
+#gif{
+    width: 400px;
+}
+
+.descricao{
+    text-align: center;
+}
+
+.descricao tr td h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.instrumentos{
+    width: 400px;
+}
+
+.discos{
+    width: 220px;
 }
 
 footer{
