@@ -68,7 +68,7 @@ body{
 h1{
     font-family: minhafonte;
     font-size: 42px;
-    color: rgba(249, 249, 249, 0.922);
+    color: rgba(11, 10, 10, 0.922);
     text-align: center;
     background-color:#987825;
     width: 300px;
@@ -98,20 +98,28 @@ h1{
 .containerArtistas{
     display: grid;
     justify-content: center;
-    /* background-color: #C39829; */
     margin-bottom: 20px;
 }
 
+.containerArtistas table{
+    margin-bottom: 100px;
+    background-color: #C39829;
+    border-radius: 70px;
+}
 .containerArtistas img{
     width: 400px; 
+    border-radius: 70px;
 }
 
 #gif{
     width: 400px;
 }
 
-.descricao{
+.descricao p{
     text-align: center;
+    font-size: 32px;
+    padding: 30px;
+
 }
 
 .descricao tr td h1{
