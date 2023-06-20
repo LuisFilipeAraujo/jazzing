@@ -1,8 +1,10 @@
-* {
-    padding: 0;
+*, *:before, *:after{
     margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
     box-sizing: border-box;
-}
+  }
 
 @font-face {
     font-family: minhafonte;
@@ -114,12 +116,12 @@ h1{
     position: relative;
 }
 
-.containerInstrumentos{
+/* .containerInstrumentos{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     position: relative;
-}
+} */
 .containerArtistas{
     display: grid;
     justify-content: center;
